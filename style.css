@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgba(0, 0, 0,0.85);
+}
+.main{
+  padding:0px;
+}
+
+.navbar{
+  height: 45px;
+  background-color: rgb(155, 246, 255) ;
+}
+
+.calculator{
+  background-color:rgb(160, 196, 255);
+  padding-top: 30px;
+  margin-top: 5%;
+  width: 298px;
+  height: 430px;
+  border-radius: 10%;
+  -webkit-box-shadow: -3px 0px 8px 1px rgba(255,198,255,1),  3px 0px 8px 1px rgba(255,198,255,1);
+-moz-box-shadow: -3px 0px 8px 1px rgba(255,198,255,1), 3px 0px 8px 1px rgba(255,198,255,1);
+box-shadow: -3px 0px 8px 1px rgba(155, 246, 255,1) , 3px 0px 8px 1px rgba(155, 246, 255,1) ;
+
+           }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+                                 }
+
+input[type=number] {
+          width: 240px;
+          height: 50px;
+          background-color: rgb(255, 255, 252);
+          border:0.5px solid  rgba(155, 246, 255,1);
+          border-radius: 40px;
+          box-shadow: -2px 0px 8px 1px rgba(0, 0,0,0.2) , 2px 0px 8px 1px rgba(0, 0, 0,0.2) ;
+          text-decoration: none;
+          color:rgb(189, 178, 255);
+          outline:none;
+       }
+.pow{
+  font-family: math;
+}
+
+
+input[type=button] {
+          width: 50px;
+          height: 50px;
+          background-color: rgb(155, 246, 255);
+          margin-left: 5px;
+          margin-right: 5px;
+          border:0.5px solid rgba(155, 246, 255,1);
+          border-radius: 100%;
+          box-shadow: -1px 0px 2px 1px rgba(155, 246, 255,1) , 1px 0px 2px 1px rgba(0, 0, 0,0.3) ;
+          text-decoration: none;
+          color: black;
+          cursor: pointer;
+          outline:none;
+       }
+
+input #sign {
+    color: rgb(255, 173, 173);
+}
